@@ -158,13 +158,14 @@ footer>* {
     }
 
     to {
-        left: -100%;
+        left: -100%
     }
 }
 
 #sponsor-images {
     position: relative;
     width: fit-content;
+
     animation: sponsors 20s linear infinite both;
 }
 
