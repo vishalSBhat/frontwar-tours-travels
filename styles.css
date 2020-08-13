@@ -87,3 +87,19 @@ i,
     font-family: 'Baloo Tamma 2', cursive;
     color: #0f4c75;
 }
+
+footer {
+    background-color: #0f4c75;
+}
+
+footer>* {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.footer-text {
+    color: #edf7fa;
+}
+
+.footer-icon {
+    color: #3282b8;
+}
