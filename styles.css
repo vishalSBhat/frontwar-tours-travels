@@ -15,13 +15,21 @@ nav {
 }
 
 #_nav-brand {
+    position: relative;
     align-self: center;
     text-align: center;
 }
 
+#logo {
+    /* float: left; */
+    height: min(40px, 8vw);
+    width: min(40px, 8vw);
+    transform: rotateZ(-45deg);
+}
+
 #_nav-brand-name {
     color: #0f4c75;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
 
 #_nav-links-holder {
@@ -48,6 +56,10 @@ i,
 ._nav-link:hover {
     color: #0f4c75;
     text-decoration: none;
+}
+
+._nav-link-active {
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.6));
 }
 
 .section-container {
