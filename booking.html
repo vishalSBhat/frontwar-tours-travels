@@ -90,6 +90,53 @@
               </div>
           </div>
         </div>
+        <h4 style="color: #0f4c75;
+        font-family: 'Recursive', sans-serif;" class="my-4">Let's Do it !!</h4>
+
+        <span class="d-block mx-2 _text-light">Where to <i class="fas fa-map-marker"></i></span>
+        <input type="text" class="m-2 py-2 px-3 col-10 col-sm-4 booking-input-field">
+
+        <span class="d-block mx-2 mt-3 _text-light">How Many <i class="fas fa-sort-numeric-up-alt"></i></span>
+        <select class="custom-select m-2 py-2 px-3 col-6 col-sm-3 booking-input-field" id="inputGroupSelect01">
+            <option selected>Count...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5 & more</option>
+          </select>
+
+          <span class="d-block mx-2 mt-3 _text-light">From <i class="far fa-calendar-alt"></i></span>
+        <input type="date" class="m-2 py-2 px-3 col-10 col-sm-4 booking-input-field">
+
+        <span class="d-block mx-2 mt-3 _text-light">To <i class="fas fa-calendar-alt"></i></span>
+        <input type="date" class="m-2 py-2 px-3 col-10 col-sm-4 booking-input-field">
+
+        <span class="d-block mx-2 mt-3 _text-light">Transport <i class="fas fa-caravan"></i></span>
+        <select class="custom-select m-2 py-2 px-3 col-10 col-sm-4 booking-input-field" id="inputGroupSelect01">
+            <option selected>Wheelies...</option>
+            <option value="1">2 seater</option>
+            <option value="2">4+1 seater</option>
+            <option value="3">7+1 seater</option>
+            <option value="3">Mini-traveller</option>
+            <option value="3">Bus</option>
+          </select>
+
+          <span class="d-block mx-2 mt-3 _text-light">Food <i class="fas fa-utensils"></i></span>
+          <div class="m-2 btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-success food-select">
+            <input
+              type="radio"
+              name="options"
+              checked
+            />
+            Yes
+          </label>
+          <label class="btn btn-danger food-select"><input type="radio" name="options" /> No
+          </label>
+        </div>
+
+          <button class="d-block my-4 mx-0 py-2 px-4 btn btn-md btn-light">Book</button>
     </div>
 
     <footer class="pb-3">

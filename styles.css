@@ -135,7 +135,9 @@ footer>* {
 
 .question,
 #sponsors h4,
-.offer-text {
+.offer-text,
+._text-light,
+.btn {
     color: #3282b8;
     font-family: 'Recursive', sans-serif;
 }
@@ -197,4 +199,18 @@ footer>* {
 .offer-container:hover {
     box-shadow: 0 0 10px black;
     transform: scale(1.2, 1.2);
+}
+
+.booking-input-field {
+    border: 2px solid #0f4c75;
+    border-radius: 5px;
+}
+
+.booking-input-field:focus,
+.booking-input-field:active {
+    outline: none;
+}
+
+.food-select {
+    color: white !important;
 }
