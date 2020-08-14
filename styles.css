@@ -57,6 +57,40 @@ i,
     color: var(--dark-blue);
 }
 
+@keyframes nav-icon-vertical {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(-5px);
+    }
+
+    25% {
+        transform: translateY(5px);
+    }
+
+    35% {
+        transform: translateY(-3px);
+    }
+
+    45% {
+        transform: translateY(3px);
+    }
+
+    55% {
+        transform: translateY(-1px);
+    }
+
+    65% {
+        transform: translateY(1px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 ._nav-link {
     font-size: 1.1rem;
 }
@@ -66,7 +100,11 @@ i,
 }
 
 ._nav-link-active {
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+._nav-link-active i {
+    animation: nav-icon-vertical 2.5s ease-in infinite both;
 }
 
 @keyframes icon-scale {
