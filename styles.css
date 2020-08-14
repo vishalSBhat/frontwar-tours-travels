@@ -21,6 +21,26 @@ nav {
     z-index: 500;
 }
 
+._alert {
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #edf7fa;
+    font-family: var(--content-font);
+    z-index: 600;
+}
+
+._alert i:first-of-type {
+    color: gold;
+}
+
+._alert i:last-of-type {
+    color: greenyellow;
+}
+
 #_nav-brand {
     position: relative;
     align-self: center;
@@ -267,8 +287,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: min(250px, 65vw);
-    width: min(250px, 65vw);
+    height: min(260px, 70vw);
+    width: min(260px, 70vw);
     padding: 0 2em;
     border: 0.7rem solid var(--dark-blue);
     box-shadow: 0 0 10px grey;
@@ -281,6 +301,12 @@ footer {
 .offer-container:hover {
     box-shadow: 0 0 10px black;
     transform: scale(1.2, 1.2);
+}
+
+.offer-price {
+    font-size: 0.8rem;
+    color: grey;
+    text-decoration: line-through;
 }
 
 .booking-input-field {
