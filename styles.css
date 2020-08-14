@@ -104,7 +104,7 @@ i,
 }
 
 ._nav-link-active i {
-    animation: nav-icon-vertical 2.5s ease-in infinite both;
+    animation: nav-icon-vertical 2.5s 3s ease-in infinite both;
 }
 
 @keyframes icon-scale {
