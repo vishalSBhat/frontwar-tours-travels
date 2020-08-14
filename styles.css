@@ -182,6 +182,31 @@ i,
     animation: icon-rotate 3s ease-in infinite both;
 }
 
+.facilities-container>*,
+.guide-container>* {
+    text-align: center;
+    color: var(--dark-blue);
+    font-family: var(--content-font);
+}
+
+.fake-line-container p {
+    text-align: center;
+}
+
+.fake-line-container {
+    box-shadow: 0 10px 5px -10px grey;
+}
+
+.guide-container {
+    border-radius: 10px;
+    border: 2px solid var(--light-blue);
+}
+
+.guide-container>* {
+    display: inline-block;
+
+}
+
 #gallery div {
     text-align: center;
 }
@@ -239,7 +264,8 @@ footer {
 #sponsors h4,
 .offer-text,
 ._text-light,
-.btn {
+.btn,
+#facilities h6 {
     color: var(--light-blue);
     font-family: var(--heading-font);
 }
